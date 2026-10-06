@@ -1,0 +1,55 @@
+/* Base page styles */
+.card {
+    background-color: #001a3f; /* Light gray background */
+}
+
+body {
+    font-family: Didot, "Bodoni MT", "Cinzel", Georgia, serif;
+    margin: 20px;
+    background-color: #001a3f; /* Navy blue background */
+}
+
+/* Headings */
+h1 {
+    color: #dbdae5; /* Light gray color */
+}
+
+h2 {
+    color: #dbdae5; /* Light gray color */
+}
+
+/* Paragraphs */
+p {
+    color: #dbdae5; /* Light gray color */
+    font-size: 15px;
+}
+
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ul  {
+  background: #dbdae5;
+  color: darkblue;
+  margin: 5px;
+  padding: 18px;
+}
