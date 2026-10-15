@@ -41,6 +41,25 @@ a:hover, a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Tablet Layout (Screens 768px and up) */
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  }
+}
+
+/* Desktop Layout (Screens 1024px and up) */
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  }
+}
 /* Tablet & Desktop Layout Grid (600px and up) */
 @media (min-width: 600px) {
     .mobile-center-heading { 
