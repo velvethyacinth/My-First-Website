@@ -55,7 +55,7 @@ a:hover, a:active {
 }
 
 /* Mobile Layout Fixes (767px and down) */
-@media screen and (max-width: 767px) {
+@media and (max-width: 767px) {
     .mobile-center-heading {
         text-align: center;
         display: block;
@@ -75,7 +75,5 @@ a:hover, a:active {
     body {
         font-size: 18px;
     }
-}
-
 }
         
