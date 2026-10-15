@@ -57,7 +57,7 @@ ul  {
     font-size: 30px
 }
 @media screen and (max-width: 768px) {
-    class="responsive-image" {
+    .responsive-image {
         width: 75%
         max-width: 300px
         height: auto;
@@ -66,9 +66,10 @@ ul  {
     class="mobile-center-heading" {
         text-align: center;
     }
-@media (max-width: 768px) {
-  .image-container {
-    width: 300px; /* Shrinks the wrapper */
+@media screen and (max-width: 767px) {
+  .mobile-center-heading {
+    text-align: center;
+    display: block; /* Ensures the paragraphs/headings span full width to center properly */
   }
 }
         
