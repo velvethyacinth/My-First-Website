@@ -58,7 +58,7 @@ ul  {
 }
 @media screen and (max-width: 768px) {
     .responsive image {
-        width: 100%
+        width: 75%
         max-width: 350px
         height: auto;
     }
