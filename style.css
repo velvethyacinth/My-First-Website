@@ -58,7 +58,7 @@ ul  {
 }
 @media and (max-width: 768px) {
     .responsive-image {
-        width: 75%
+        width: 100%
         max-width: 300px
         height: auto;
     }
@@ -66,8 +66,12 @@ ul  {
   .mobile-center-heading {
     text-align: center;
     display: block;
-      padding-left: 24px;
-      padding-right: 24px;
   }
+@media (min-width: 600px) {
+  .mobile-center-heading {grid-area: 1 / span 6;}
+  .menu {grid-area: 2 / span 1;}
+  .content {grid-area: 2 / span 4;}
+  .facts {grid-area: 2 / span 1;}
+  .footer {grid-area: 3 / span 6;}
 }
         
