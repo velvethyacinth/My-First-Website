@@ -62,10 +62,6 @@ ul  {
         max-width: 300px
         height: auto;
     }
-@media and (max-width: 768px) {
-    class="mobile-center-heading" {
-        text-align: center;
-    }
 @media and (max-width: 767px) {
   .mobile-center-heading {
     text-align: center;
