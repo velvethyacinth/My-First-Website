@@ -56,22 +56,22 @@ ul  {
 @media (orientation: portrait) {
     font-size: 30px
 }
-@media screen and (max-width: 768px) {
+@media and (max-width: 768px) {
     .responsive-image {
         width: 75%
         max-width: 300px
         height: auto;
     }
-@media screen and (max-width: 768px) {
+@media and (max-width: 768px) {
     class="mobile-center-heading" {
         text-align: center;
     }
-@media screen and (max-width: 767px) {
+@media and (max-width: 767px) {
   .mobile-center-heading {
     text-align: center;
     display: block;
       padding-left: 24px;
-      padding-right: 24px;/* Ensures the paragraphs/headings span full width to center properly */
+      padding-right: 24px;
   }
 }
         
