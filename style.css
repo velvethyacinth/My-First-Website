@@ -69,7 +69,9 @@ ul  {
 @media screen and (max-width: 767px) {
   .mobile-center-heading {
     text-align: center;
-    display: block; /* Ensures the paragraphs/headings span full width to center properly */
+    display: block;
+      padding-left: 24px;
+      padding-right: 24px;/* Ensures the paragraphs/headings span full width to center properly */
   }
 }
         
