@@ -66,6 +66,9 @@ ul  {
     class="mobile-center-heading" {
         text-align: center;
     }
+@media (max-width: 768px) {
+  .image-container {
+    width: 300px; /* Shrinks the wrapper */
+  }
 }
-
         
