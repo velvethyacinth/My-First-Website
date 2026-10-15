@@ -63,6 +63,9 @@ ul  {
         height: auto;
     }
 @media screen and (max-width: 768px) {
-    
+    h2.mobile-center-heading {
+        text-align: center;
+    }
+}
 
         
