@@ -1,20 +1,16 @@
 /* Base page styles */
-.card {
-    background-color: #754545; /* Beige background */
-}
-
 body {
     font-family: Didot, "Bodoni MT", "Cinzel", Georgia, serif;
     margin: 20px;
     background-color: #001a3f; /* Navy blue background */
 }
 
-/* Headings */
-h1 {
-    color: #dbdae5; /* Light gray color */
+.card {
+    background-color: #754545; /* Dark brown/beige background */
 }
 
-h2 {
+/* Headings */
+h1, h2 {
     color: #dbdae5; /* Light gray color */
 }
 
@@ -22,56 +18,64 @@ h2 {
 p {
     color: #dbdae5; /* Light gray color */
     font-size: 15px;
+    line-height: 1.5; 
 }
 
-a:link {
+/* Lists */
+ul {
+    background: #754545;
+    color: white;
+    margin: 10px;
+    padding: 25px;
+}
+
+/* Links */
+a:link, a:visited {
     color: red;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:visited {
-    color: red;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
+a:hover, a:active {
     color: red;
     background-color: transparent;
     text-decoration: underline;
 }
+/* Tablet & Desktop Layout Grid (600px and up) */
+@media (min-width: 600px) {
+    .mobile-center-heading { 
+        grid-area: 1 / span 6; 
+    }
+    .section { 
+        grid-area: 2 / span 1; 
+    }
+    .responsive-image { 
+        grid-area: 2 / span 4; 
+    }
+}
 
-a:active {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
-ul  {
-  background: #754545;
-  color: white;
-  margin: 10px;
-  padding: 25px;
-}
-@media (orientation: portrait) {
-    font-size: 30px
-}
-@media and (max-width: 768px) {
+/* Mobile Layout Fixes (767px and down) */
+@media screen and (max-width: 767px) {
+    .mobile-center-heading {
+        text-align: center;
+        display: block;
+        padding-left: 15px;  
+        padding-right: 15px; 
+        margin-bottom: 20px; 
+    }
     .responsive-image {
-        width: 100%
-        max-width: 300px
+        width: 100%;
+        max-width: 300px;
         height: auto;
     }
-@media and (max-width: 767px) {
-  .mobile-center-heading {
-    text-align: center;
-    display: block;
-  }
-@media (min-width: 600px) {
-  .mobile-center-heading {grid-area: 1 / span 6;}
-  .section {grid-area: 2 / span 1;}
-  .responsive-image {grid-area: 2 / span 4;}
-  .facts {grid-area: 2 / span 1;}
-  .footer {grid-area: 3 / span 6;}
+}
+
+/* Device Orientation Font Size Adjustment */
+@media (orientation: portrait) {
+    body {
+        font-size: 18px;
+    }
+}
+
 }
         
