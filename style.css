@@ -97,17 +97,28 @@ a:hover, a:active {
 }
         
 /* Horizontal Navigation Bar */
-<nav>
-  <ul>
-    <li><a href="#about">Home</a></li>
-    <li><a href="#goals">About Me</a></li>
-    <li><a href="#contact">Portfolio</a></li>
-  </ul>
-</nav>
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
 
-<main class="portfolio-grid">
-  <section id="about" class="about-sec">
-  </section>
+nav li {
+  float: none;
+}
+
+nav a {
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #111;
+}
   <section id="goals" class="goals-sec">
   </section>
   <section id="contact" class="contact-sec">
