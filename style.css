@@ -18,7 +18,7 @@ h1, h2 {
 p {
     color: #dbdae5; /* Light gray color */
     font-size: 15px;
-    line-height: 1.5; 
+    line-height: 1.5;
 }
 
 /* Lists */
@@ -41,6 +41,7 @@ a:hover, a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -60,27 +61,28 @@ a:hover, a:active {
     grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
   }
 }
+
 /* Tablet & Desktop Layout Grid (600px and up) */
 @media (min-width: 600px) {
-    .mobile-center-heading { 
-        grid-area: 1 / span 6; 
+    .mobile-center-heading {
+        grid-area: 1 / span 6;
     }
-    .section { 
-        grid-area: 2 / span 1; 
+    .section {
+        grid-area: 2 / span 1;
     }
-    .responsive-image { 
-        grid-area: 2 / span 4; 
+    .responsive-image {
+        grid-area: 2 / span 4;
     }
 }
 
 /* Mobile Layout Fixes (767px and down) */
-@media and (max-width: 767px) {
+@media (max-width: 767px) {
     .mobile-center-heading {
         text-align: center;
         display: block;
-        padding-left: 15px;  
-        padding-right: 15px; 
-        margin-bottom: 20px; 
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 20px;
     }
     .responsive-image {
         width: 100%;
@@ -95,32 +97,33 @@ a:hover, a:active {
         font-size: 18px;
     }
 }
-        
+
 /* Horizontal Navigation Bar */
+nav {
+    background-color: #333;
+    margin-bottom: 20px;
+}
+
 nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav li {
-  float: none;
+    float: none;
 }
 
 nav a {
-  display: block;
-  padding: 14px 16px;
-  color: white;
-  text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #111;
+    background-color: #111;
 }
-  <section id="goals" class="goals-sec">
-  </section>
-  <section id="contact" class="contact-sec">
-  </section>
-</main>
