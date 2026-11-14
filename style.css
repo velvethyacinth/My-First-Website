@@ -2,12 +2,9 @@
 body.ibm-plex-sans-thai-looped-medium {
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: 500;
+  margin: 20px;
   font-style: normal;
 }
-    margin: 20px;
-    background-color: #001a3f; /* Navy blue background */
-}
-
 .card {
     background-color: #754545; /* Dark brown/beige background */
 }
