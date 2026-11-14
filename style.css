@@ -8,9 +8,6 @@ body {
   margin: 20px;
   font-style: normal;
 }
-.card {
-    background-color: #754545; 
-}
 
 /* Headings */
 
@@ -35,27 +32,6 @@ p {
     color: #f2e9d8;
     font-size: 15px;
     line-height: 1.5;
-}
-
-/* Lists */
-ul {
-    background: #754545;
-    color: white;
-    margin: 10px;
-    padding: 25px;
-}
-
-/* Links */
-a:link, a:visited {
-    color: red;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover, a:active {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
 }
 
 .grid-container {
