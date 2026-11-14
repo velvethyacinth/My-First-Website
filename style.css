@@ -1,4 +1,7 @@
 /* Base page styles */
+html {
+  background-color: #292C35;
+}
 body {
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: 400;
