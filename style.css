@@ -84,7 +84,7 @@ a:hover, a:active {
     .section {
         grid-area: 2 / span 1;
     }
-    .responsive-image {
+    .img-box img {
         grid-area: 2 / span 4;
     }
 }
