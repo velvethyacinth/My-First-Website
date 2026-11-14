@@ -1,6 +1,9 @@
 /* Base page styles */
-body {
-    font-family: Didot, "Bodoni MT", "Cinzel", Georgia, serif;
+body.ibm-plex-sans-thai-looped-medium {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
     margin: 20px;
     background-color: #001a3f; /* Navy blue background */
 }
