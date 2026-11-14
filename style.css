@@ -116,6 +116,38 @@ a:hover, a:active {
     object-fit: cover;
 }
 
+.contact-form h2{
+  text-align: left;
+  margin-top: 3em;
+  margin-botton: 1em;
+  font-size: 36px;
+}
+
+.contact-form form{
+  max-width: 50em;
+  margin: 1rem auto;
+  text-align: left;
+  margin-botton: 3em;
+}
+
+.contact-form form .input-box{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea{
+  width: 100%;
+  padding: 1.5em;
+  font-size: 18px;
+  color: #292c35;
+  background: #f2e9d8;
+  border-radius: .8rem;
+  margin: 1rem 0;
+  resize: none;
+}
+
 /* Tablet & Desktop Layout (600px and up) */
 @media (min-width: 600px) {
     .mobile-center-heading {
