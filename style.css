@@ -1,5 +1,5 @@
 /* Base page styles */
-body.ibm-plex-sans-thai-looped-medium {
+body {
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: 500;
   margin: 20px;
@@ -10,7 +10,7 @@ body.ibm-plex-sans-thai-looped-medium {
 }
 
 /* Headings */
-h1.ibm-plex-sans-thai-looped-bold {
+h1, h2 {
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: 700;
   font-style: normal;
