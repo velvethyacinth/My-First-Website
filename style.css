@@ -117,12 +117,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #F2E9D8;
+    background-color: #f2e9d8;
     margin-bottom: 20px;
 }
 
 .nav-brand {
-    color: white;
+    color: #292c35;
     padding: 14px 16px;
     margin-right: auto;
 }
@@ -145,7 +145,7 @@ nav a:link,
 nav a:visited {
     display: block;
     padding: 14px 16px;
-    color: white;
+    color: #292c35;
     text-decoration: none;
 }
 
