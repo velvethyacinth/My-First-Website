@@ -9,7 +9,7 @@ body {
   font-style: normal;
 }
 .card {
-    background-color: #754545; /* Dark brown/beige background */
+    background-color: #754545; 
 }
 
 /* Headings */
@@ -18,7 +18,7 @@ h1 {
   font-family: "Cal Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #dbdae5; /* Light gray color */
+  color: #e47b5e; 
 }
 
 h2 {
