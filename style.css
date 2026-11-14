@@ -109,10 +109,10 @@ a:hover, a:active {
 
 .img-box img {
     display: block;
-    width: 100%;
+    width: 75%;
     max-width: 540px;
     height: 820px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 /* Tablet & Desktop Layout (600px and up) */
