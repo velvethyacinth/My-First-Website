@@ -80,6 +80,19 @@ p {
     grid-row: 3;
 }
 
+.about-sec class="btn-1"{
+  padding: 15px 28px;
+  background-color:#243d78;
+  color: #f2e9d8;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
 .img-box {
     grid-column: 2;
     grid-row: 1 / span 3;
