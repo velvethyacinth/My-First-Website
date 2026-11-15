@@ -80,7 +80,7 @@ p {
     grid-row: 3;
 }
 
-.about-sec class="btn-1"{
+.about-sec .btn-1{
   padding: 15px 28px;
   background-color:#e47b5e;
   color: #f2e9d8;
