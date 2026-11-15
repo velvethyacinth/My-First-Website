@@ -128,8 +128,8 @@ p {
 .featured-work h2 {
   color: #e47b5e;
   text-align: left;
-  margin-top: 3em;
-  margin-botton: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: 36px;
 }
 
