@@ -93,6 +93,10 @@ p {
   cursor: pointer;
 }
 
+.btn-1:hover {
+    background-color: #e47b5e;
+}
+
 .about-sec .btn-2{
   padding: 15px 28px;
   background-color:#f2e9d8;
@@ -104,6 +108,10 @@ p {
   font-weight: 600;
   transition: 0.3s ease;
   cursor: pointer;
+}
+
+.btn-2:hover {
+    background-color: #d8b94f;
 }
 
 .img-box {
@@ -174,7 +182,7 @@ p {
     cursor: pointer;
 }
 
-.btn-1:hover {
+.btn-3:hover {
     background-color: #d8b94f;
 }
 
