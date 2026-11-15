@@ -93,6 +93,19 @@ p {
   cursor: pointer;
 }
 
+.about-sec .btn-2{
+  padding: 15px 28px;
+  background-color:#d8b94f;
+  color: #292c35;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
 .img-box {
     grid-column: 2;
     grid-row: 1 / span 3;
