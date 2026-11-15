@@ -59,20 +59,15 @@ p {
 
 /* Place the about text on the left and image on the right */
 .about-sec {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 540px);
-    column-gap: 32px;
-    align-items: center;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 540px);
+  gap: 32px;
+  align-items: start;
 }
 
-.about-sec > h1 {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.about-sec > p {
-    grid-column: 1;
-    grid-row: 2;
+.about-copy h1,
+.about-copy p {
+  margin: 0 0 1rem;
 }
 
 .about-sec > .btn-box {
