@@ -96,6 +96,13 @@ p {
     object-fit: cover;
 }
 
+.featured-work h2{
+  text-align: left;
+  margin-top: 3em;
+  margin-botton: 1em;
+  font-size: 36px;
+}
+
 .contact-form h2{
   text-align: left;
   margin-top: 3em;
