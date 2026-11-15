@@ -82,8 +82,8 @@ p {
 
 .about-sec .btn-1{
   padding: 15px 28px;
-  background-color:#e47b5e;
-  color: #f2e9d8;
+  background-color:#f2e9d8;
+  color: #292c35;
   border: 2px solid transparent;
   border-radius: 8px;
   font-size: 18px;
@@ -95,7 +95,7 @@ p {
 
 .about-sec .btn-2{
   padding: 15px 28px;
-  background-color:#d8b94f;
+  background-color:#f2e9d8;
   color: #292c35;
   border: 2px solid transparent;
   border-radius: 8px;
