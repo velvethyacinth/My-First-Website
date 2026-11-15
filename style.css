@@ -17,6 +17,8 @@ h1 {
   font-size: 60px;
   font-style: normal;
   color: #e47b5e; 
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -227,9 +229,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: #f2e9d8;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
-
 .nav-brand {
     color: #292c35;
     padding: 14px 16px;
