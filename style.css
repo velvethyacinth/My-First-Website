@@ -136,10 +136,37 @@ p {
   font-size: 36px;
 }
 
-.project-grid{
+.projects-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
   gap: 2rem;
+}
+.projects-card{
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5rem;
+  border: 2 px solid #e47b5e;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: 0.3 ease-in-out;
+}
+.projects-card:hover{
+  background-color: #292c35;
+  color: #f2e9d8;
+  transform: translateY(-10px)scale(1.02);
+}
+.projects-card:hover .btn-3;4;5:hover{
+  border: 2px solid #d8b94f;
+  background-color: #f2e9d8;
+  color: #292c35;
+}
+.projects-card h3{
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 /*contact me section + form*/
