@@ -164,7 +164,7 @@ p {
   margin: 1rem 0;
   resize: none;
 }
-.btn-3 {
+.btn-6 {
     display: inline-block;
     width: auto;
     padding: 12px 28px;
@@ -177,7 +177,7 @@ p {
     cursor: pointer;
 }
 
-.btn-3:hover {
+.btn-6:hover {
     background-color: #d8b94f;
 }
 
