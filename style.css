@@ -85,6 +85,10 @@ p {
   margin: 0;
 }
 
+.about-copy p {
+  margin-bottom: 1.5rem;
+}
+
 .about-sec .btn-box{
     grid-column: 1;
     grid-row: 3;
