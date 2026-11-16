@@ -148,13 +148,11 @@ p {
 *::after {
   box-sizing: border-box;
 }
-
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
   gap: 2rem;
 }
-
 .projects-card {
   min-width: 0;
   padding: 2rem 1rem;
@@ -165,12 +163,20 @@ p {
   gap: 1.5rem;
   border: 2px solid #e47b5e;
   border-radius: 2rem;
+  transition: 0.3s ease-in-out;
 }
-
+.projects-card:hover {
+  transform: translateY(-10px) scale(1.02);
+}
 .projects-card img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.projects-card button:hover {
+  border: 2px solid #d8b94f;
+  background-color: #f2e9d8;
+  color: #292c35;
 }
 
 /*contact me section + form*/
