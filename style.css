@@ -79,7 +79,7 @@ p {
   margin: 0 0 1rem;
 }
 
-.about-sec > .btn-box {
+.about-sec a{
     grid-column: 1;
     grid-row: 3;
 }
@@ -91,10 +91,12 @@ p {
   border: 2px solid transparent;
   border-radius: 8px;
   font-size: 18px;
+  text-decoration: none;
   letter-spacing: 1px;
   font-weight: 600;
   transition: 0.3s ease;
   cursor: pointer;
+  
 }
 
 .btn-1:hover {
@@ -108,6 +110,7 @@ p {
   border: 2px solid transparent;
   border-radius: 8px;
   font-size: 18px;
+  text-decoration: none;
   letter-spacing: 1px;
   font-weight: 600;
   transition: 0.3s ease;
