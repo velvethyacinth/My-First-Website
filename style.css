@@ -74,9 +74,15 @@ p {
   align-items: start;
 }
 
+.about-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .about-copy h1,
 .about-copy p {
-  margin: 0 0 1rem;
+  margin: 0;
 }
 
 .about-sec .btn-box{
