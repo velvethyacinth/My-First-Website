@@ -265,7 +265,6 @@ p {
 }
 .footer .social a{
   font-size: 24px;
-  text-decoration: none;
   color: #292c35;
   border: 2px sold #e47b5e;
   width: 40px;
@@ -293,13 +292,13 @@ p {
   margin-top: 0;
   padding: 0;
   font-size: 18px;
-  text-decoration: none;
   line-height: 1.6;
   margin-bottom: 0;
   text-align: center;
 }
 .footer ul li a{
   color: #292c35;
+  text-decoration: none;
   border-botton: 3px solid transparent;
   transition: 0.3s ease;
 }
