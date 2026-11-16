@@ -79,7 +79,7 @@ p {
   margin: 0 0 1rem;
 }
 
-.about-sec a{
+.about-sec btn-box{
     grid-column: 1;
     grid-row: 3;
 }
