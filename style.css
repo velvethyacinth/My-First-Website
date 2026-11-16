@@ -173,6 +173,18 @@ p {
   max-width: 100%;
   height: auto;
 }
+.projects-card button{
+  padding: 15px 28px;
+  background-color:#f2e9d8;
+  color: #292c35;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
 .projects-card button:hover {
   border: 2px solid #d8b94f;
   background-color: #f2e9d8;
