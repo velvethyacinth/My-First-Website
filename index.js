@@ -13,43 +13,43 @@ if (form) {
 
 const projects = [
   {
-    title: "Project 1",
+    title: "Noticiero Móvil Zine Cover",
     category: "Design",
     description: "Add a short description of this project.",
     image: "",
     link: "#"
   },
   {
-    title: "Project 2",
+    title: "Personal Portfolio: JOUR 452",
     category: "Website",
     description: "Add a short description of this project.",
     image: "",
     link: "#"
   },
   {
-    title: "Project 3",
-    category: "Event planning",
+    title: "Brushfire Poetry Night",
+    category: "Event Planning",
     description: "Add a short description of this project.",
     image: "",
     link: "#"
   },
   {
-    title: "Project 4",
+    title: "Noticiero Móvil Brand Identity",
     category: "Design",
     description: "Add a short description of this project.",
     image: "",
     link: "#"
   },
   {
-    title: "Project 5",
+    title: "CustomsByAlo E-Commerce Store",
     category: "Website",
     description: "Add a short description of this project.",
     image: "",
     link: "#"
   },
   {
-    title: "Project 6",
-    category: "Event planning",
+    title: "SGA Cars N' Coffee",
+    category: "Event Planning",
     description: "Add a short description of this project.",
     image: "",
     link: "#"
