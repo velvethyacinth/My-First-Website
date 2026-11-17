@@ -377,9 +377,9 @@ p {
   flex-direction: column;
   gap: 28px;
   padding: 64px 48px;
-  background: #fff;
+  background: #292c35;
   border-block: 2px solid #141414;
-  color: #141414;
+  color: #f2e9d8;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
@@ -397,7 +397,7 @@ p {
 
 .portfolio-eyebrow {
   margin: 0;
-  color: #4a4a4a;
+  color: #e47b5e;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.1em;
