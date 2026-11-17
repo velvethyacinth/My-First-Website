@@ -1,83 +1,68 @@
-<!DOCTYPE hmtl>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Cedar Tierney</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=IBM+Plex+Sans+Thai+Looped:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=IBM+Plex+Sans+Thai+Looped:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
   </head>
+
   <body>
-
-<!--nav bar-->
-    
-     <nav aria-label="Main navigation">
-        <span class="nav-brand">Cedar Tierney</span>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
+    <nav aria-label="Main navigation">
+      <span class="nav-brand">Cedar Tierney</span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+      </ul>
     </nav>
-    
-<!--title for portfolio-->
-  
-    <h1 class="mobile-center-heading">Portfolio <span> Collection</span></h1>  
 
-<!--grid including projects-->
+    <main>
+      <h1 class="mobile-center-heading">Portfolio <span>Collection</span></h1>
 
-<section class="portfolio" id="portfolio">
-  <div>
-    <h2>What I've Made</h2>
-  </div>  
+      <section class="portfolio-collection" id="portfolio" aria-labelledby="portfolio-heading">
+        <header class="portfolio-heading">
+          <p class="portfolio-eyebrow">01 / Selected work</p>
+          <h2 id="portfolio-heading">What I've made.</h2>
+        </header>
 
-  <div class="search-filters" id="search-filters" role="group" aria-label="Filter Projects"></div>  
+        <div
+          class="portfolio-filters"
+          id="portfolio-filters"
+          role="group"
+          aria-label="Filter projects"
+        ></div>
 
-  <div class="portfolio-grid-container">
-    <div class="project">Project 1</div>  
-    <div class="project">Project 2</div>
-    <div class="project">Project 3</div>
-    <div class="project">Project 4</div>
-    <div class="project">Project 5</div>
-    <div class="project">Project 6</div>
-  </div>  
-    
+        <div class="portfolio-grid" id="portfolio-grid" aria-live="polite"></div>
+      </section>
+    </main>
 
-</section>  
-  
-<!--footer with socials-->
-    
-<footer class="footer">
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.instagram.com/rsj_ctierney" aria-label="Instagram">
+          <img src="images/bx-instagram.svg" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/cedar-tierney-rsj/" aria-label="LinkedIn">
+          <img src="images/bx-linkedin-square.svg" alt="">
+        </a>
+        <a href="https://github.com/velvethyacinth" aria-label="GitHub">
+          <img src="images/bx-github.svg" alt="">
+        </a>
+      </div>
 
-            <div class="social">
-                <a href="https://www.instagram.com/rsj_ctierney">
-        <img src="images/bx-instagram.svg" alt="Instagram">
-    </a>
-    <a href="https://www.linkedin.com/in/cedar-tierney-rsj/">
-        <img src="images/bx-linkedin-square.svg" alt="LinkedIn">
-    </a>
-    <a href="https://github.com/velvethyacinth">
-        <img src="images/bx-github.svg" alt="GitHub">
-    </a>
-            </div>    
-            
-            <ul class="list">
-                <li>
-                    <a href="aboutme.html">About Me</a>
-                </li> 
-                 <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li> 
-                 <li>
-                    <a href="#contact-form">Contact</a>
-                </li> 
-                 <li>
-                    <a href="#">Privacy Policy</a>
-                </li> 
-            </ul>    
+      <ul class="list">
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="#contact-form">Contact</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
 
-            <p class="copyright">@ 2026 Cedar Tierney | All Rights Reserved</p>  
-    
+      <p class="copyright">© 2026 Cedar Tierney | All Rights Reserved</p>
+    </footer>
   </body>
 </html>
-
