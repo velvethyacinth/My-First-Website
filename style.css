@@ -372,6 +372,8 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1em;
+  justify-content: center;
+  align-content: center;
 }
 .item {
   padding: 2em;
