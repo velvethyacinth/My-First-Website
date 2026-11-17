@@ -368,12 +368,6 @@ p {
 
 /* portfolio collection */
 
-.portfolio-collection .portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
-  gap: 28px;
-}
-
 .portfolio-collection {
   display: flex;
   flex-direction: column;
@@ -383,6 +377,12 @@ p {
   border-block: 2px solid #141414;
   color: #141414;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+
+.portfolio-collection .portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+  gap: 28px;
 }
 
 .portfolio-heading {
