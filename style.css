@@ -366,7 +366,20 @@ p {
 
 /*grid display of all projects on porfolio.html*/
 
-.grid-container{
+.portfolio-grid-container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 225px 225px;
+  gap: 1em;
+}
+.item {
+  padding: 2em;
+  background-color: #e47b5e;
+  color: #f2e9d8;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
 
  
 
