@@ -214,7 +214,7 @@ p {
 .contact-form h2{
   text-align: left;
   margin-top: 3em;
-  margin-botton: 1em;
+  margin-bottom: 1em;
   font-size: 36px;
 }
 
@@ -222,7 +222,7 @@ p {
   max-width: 50em;
   margin: 1rem auto;
   text-align: left;
-  margin-botton: 3em;
+  margin-bottom: 3em;
 }
 
 .contact-form form .input-box{
@@ -250,7 +250,6 @@ p {
     border-radius: 0.8rem;
     background-color: #f2e9d8;
     color: #292c35;
-    font: IBM Plex Sans Thai Looped;
     font-size: 18px;
     cursor: pointer;
 }
