@@ -410,15 +410,15 @@ p {
   border: 2px solid #141414;
   border-radius: 999px;
   background: #f2e9d8;
-  color: #d8b94f;
+  color: #292c35;
   font: inherit;
   font-weight: 700;
   cursor: pointer;
 }
 
 .portfolio-filters button[aria-pressed="true"] {
-  background: #141414;
-  color: #fff;
+  background: #e47b5e;
+  color: #292c35;
 }
 
 .portfolio-filters button:focus-visible,
