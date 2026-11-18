@@ -528,7 +528,7 @@ p {
 .about-content > p {
   grid-column: 2;
   margin: 0;
-  font-size: 48px;
+  font-size: 30px;
 }
 
 @media (max-width: 767px) {
