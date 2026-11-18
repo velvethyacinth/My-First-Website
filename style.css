@@ -486,9 +486,12 @@ p {
 
 .portfolio-card a:hover .portfolio-thumb,
 .portfolio-card a:focus-visible .portfolio-thumb {
-  transform: translate(-3px, -3px);
+  transition: 0.3s ease-in-out;
   border-style: solid;
-  box-shadow: 6px 6px 0 #141414;
+}
+
+.projects-card:hover {
+  transform: translateY(-10px) scale(1.02);
 }
 
 .portfolio-card h3 {
