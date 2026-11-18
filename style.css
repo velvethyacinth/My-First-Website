@@ -516,6 +516,7 @@ p {
   width: 100%;
   max-width: 540px;
   justify-self: center;
+  margin-bottom: 48px;
 }
 
 .about-profile-image-box img {
