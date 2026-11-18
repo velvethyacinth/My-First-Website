@@ -490,7 +490,7 @@ p {
   border-style: solid;
 }
 
-.projects-card:hover {
+.portfolio-card:hover {
   transform: translateY(-10px) scale(1.02);
 }
 
