@@ -395,23 +395,6 @@ p {
   gap: 8px;
 }
 
-.portfolio-eyebrow {
-  margin: 0;
-  color: #d8b94f;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.portfolio-heading h2 {
-  margin: 0;
-  font-family: "Cal Sans", sans-serif;
-  color: #e47b5e; 
-  font-size: clamp(30px, 4.5vw, 44px);
-  line-height: 1.1;
-}
-
 /* filter buttons */
 
 .portfolio-filters {
@@ -502,7 +485,7 @@ p {
 }
 
 .portfolio-card-meta {
-  color: #4a4a4a;
+  color: #f2e9d8;
 }
 
 @media (max-width: 600px) {
