@@ -502,7 +502,23 @@ p {
   }
 }
 
- 
+/*photo for aboutme.html page*/
+
+.about-profile-image-box {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  justify-self: center;
+  width: 100%;
+  max-width: 540px;
+}
+
+.about-profile-image-box img {
+  display: block;
+  width: 100%;
+  max-width: 540px;
+  height: 600px;
+  object-fit: cover;
+}
 
 
  
