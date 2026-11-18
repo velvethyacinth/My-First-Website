@@ -377,6 +377,7 @@ p {
   flex-direction: column;
   gap: 28px;
   padding: 64px 48px;
+  margin-bottom: 48px;
   background: #292c35;
   border-block: 2px solid #292c35;
   color: #f2e9d8;
@@ -401,6 +402,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-bottom: 48px;
 }
 
 .portfolio-filters button {
