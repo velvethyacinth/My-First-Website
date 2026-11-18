@@ -438,6 +438,7 @@ p {
 .portfolio-card {
   min-width: 0;
   transition: 0.3s ease-in-out;
+  gap: 8px;
 }
 
 .portfolio-card a {
