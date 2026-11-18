@@ -453,6 +453,7 @@ p {
 
 .portfolio-card {
   min-width: 0;
+  transition: 0.3s ease-in-out;
 }
 
 .portfolio-card a {
@@ -476,7 +477,6 @@ p {
   background: #e0e0dc;
   color: #4a4a4a;
   text-align: center;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .portfolio-thumb img {
