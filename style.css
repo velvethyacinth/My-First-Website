@@ -548,6 +548,33 @@ p {
   }
 }
 
+/*career timeline for aboutme.html*/
+
+.timeline-section {
+  background: #292c35;
+  padding: 100px 15px;
+}
+
+.timeline-section h2 {
+  margin-botton: 5rem;
+}
+
+.timeline-items {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.timeline-items::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background-color: #292c35;
+  left: calc(50% - 1px);
+}
 
  
  
