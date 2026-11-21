@@ -576,8 +576,70 @@ p {
   left: calc(50% - 1px);
 }
 
+.timeline-item{
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.timeline-item:last-child{
+  margin-bottom: 0;
+}
+
+.timeline-item:nth-child(odd){
+  padding-right: calc(50% + 30px);
+  text-align: right;
+}
+
+.timeline-item:nth-child(even){
+  padding-left: calc(50% + 30px);
+}
  
- 
+.timeline-dot{
+  height: 21px;
+  width: 21px;
+  background-color: #667c66;
+  position: absolute;
+  left: calc(50% - 8px);
+  border-radius: 50%;
+  top: 10px;
+}
+
+.timeline-date{
+  font-size: 20px;
+  font-weight: 700;
+  color: #f2e9d8;
+  margin: 6px 0 15px;
+}
+
+.timeline-content{
+  background-color: #f2e9d8;
+  border: 2px solid #e47b5e;
+  padding: 30px;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.timeline-content: hover{
+  transform: scale (1.05);
+}
+
+.timeline-content h3{
+  font-size: 20px;
+  color: #e47b5e;
+  margin: 0 0 10px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.timeline-content p{
+  color: #f2e9d8;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+  
 
  
  
