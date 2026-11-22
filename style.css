@@ -689,3 +689,10 @@ nav a:active {
     background-color: #292c35;
     text-decoration: none;
 }
+
+.nav-brand img {
+  display: block;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
